@@ -10,9 +10,6 @@ body{
   font-family: 'Yatra One', cursive;
 }
 
-#logo{
-
-}
 nav{
   width: 100%;
   position: fixed;
@@ -47,6 +44,7 @@ nav{
 }
 .home_title {
     font-size: 4.5rem;
+    color: wheat;
 }
 .home_desc {
     font-size: 2rem;
@@ -119,6 +117,7 @@ h2{
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
   text-align: center;
+  color: #FF9D00;
 }
 
 about-content img {
@@ -269,6 +268,7 @@ h3{
 }
 
 .foot{
+  padding-top: 100px;
   text-align: center;
 }
 
