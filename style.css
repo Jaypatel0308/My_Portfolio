@@ -1,0 +1,279 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F0FFFF;
+  background-image: url(e.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  font-size: 22px;
+  font-family: 'Yatra One', cursive;
+}
+
+#logo{
+
+}
+nav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+}
+
+.navbar{
+  display: flex;
+  background: black;
+  padding: 20px 15px;
+  border-radius: 12px;
+  justify-content: center;
+}
+.navbar li{
+  list-style: none;
+  margin: 0 12px;
+}
+.navbar li a{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+.home_title {
+    font-size: 4.5rem;
+}
+.home_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.h{
+  padding-top: 200px;
+  color: wheat;
+}
+
+.h p{
+  text-align: center;
+}
+
+.bg-2{
+  background-image: url(f.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.about {
+  padding: 60px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden; 
+}
+
+.about-content {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  animation: slideInRight 1s ease-out;
+}
+
+.about img {
+  height: 350px;
+  width: auto; 
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(1, 1, 5, 0.322); 
+  margin: 20px;
+  transition: transform 0.3s ease, rotate 0.3s ease; 
+}
+
+.text-content {
+  width: 60%; 
+  text-align: left;
+}
+
+.name{
+  font-size: 60px;
+}
+h2{
+  /* background-color: #A9A9A9; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+}
+
+about-content img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.education{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden; 
+}
+
+.education-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.edu{
+  text-align: center;
+}
+
+h3{
+  color: bisque;
+  font-size:larger;
+}
+
+.experience{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden; 
+}
+
+.experience-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.exp{
+  text-align: center;
+}
+
+.project{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden; 
+}
+
+.project-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pro{
+  text-align: center;
+}
+
+.extra{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden; 
+}
+
+.extra-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certificates{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  /* text-align: center; */
+  margin-bottom: 10px; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificates-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.coursework{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  /* text-align: center; */
+  margin-bottom: 10px; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.coursework-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.skills{
+  padding: 50px; 
+  padding-bottom: 170px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  margin-bottom: 10px; 
+  overflow: hidden;
+}
+
+.skills-item-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills-item-container p{
+  width: 25%;
+}
+
+.foot{
+  text-align: center;
+}
+
+.q{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
